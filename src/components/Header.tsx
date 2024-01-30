@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Header: React.FC = () => {
   return (
-    <header className="ml-20 mt-15 flex items-center justify-between p-5 px-20">
+    <header className="ml-24 mt-15 flex items-center justify-between p-5 px-20">
       <a href="#">
         <Image src={Logo} alt="Logo" priority />
       </a>
@@ -12,7 +12,7 @@ const Header: React.FC = () => {
         <a href="#">Contato</a>
         <a href="#">Sobre</a>
         <a href="#">Login</a>
-        <button className="w-40 h-9 bg-[#8DB986] hover:bg-green-700 text-white rounded-tr-lg">
+        <button className="w-40 h-9 bg-[#8DB986] hover:bg-green-700 text-white rounded-tr-lg shadow-md">
           Inscreve-se
         </button>
       </nav>
